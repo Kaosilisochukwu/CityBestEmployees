@@ -1,9 +1,9 @@
 ﻿namespace CityBestEmployees.MS.Models
 {
-    public class Gender
+    public enum Gender
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-
+        Male,
+        Female,
+        Other
     }
 }
